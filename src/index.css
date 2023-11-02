@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+/* body {
+  background: #615e5e;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  background: #fff;
+}
+
+.cont {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-right > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.nav-right > ul > a {
+  color: black;
+}
+
+.btn-login {
+  width: 83px;
+  height: 44px;
+  border-radius: 12px;
+  background: #fff;
+  border: 3px solid #2e2f35;
+  box-shadow: 5px 3px 2px 0px #2e2f35;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.btn-freeAccount {
+  width: 184px;
+  height: 44px;
+  border-radius: 12px;
+  background: #ff6d2c;
+  color: white;
+  border: 3px solid #2e2f35;
+  box-shadow: 5px 3px 2px 0px #2e2f35;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.btn-freeAccount:hover {
+  background: #2e2f35;
+  transition: 0.7s all ease;
+}
+.btn-login:hover {
+  background: #2e2f35;
+  color: white;
+  transition: 0.7s all ease;
+}
+
+/* ------------ Header ------------- */
+
+.main {
+  padding-bottom: 60px;
+}
+.main-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text > h1 {
+  font-family: "Inter", sans-serif;
+  width: 779px;
+  font-size: 78px;
+  color: #2e2f35;
+}
+
+.main-text > h1 > span {
+  font-family: "Covered By Your Grace", cursive;
+  color: #009387;
+  font-weight: 400;
+}
+
+.main-text > p {
+  font-family: "Inter", sans-serif;
+  width: 553px;
+  font-size: 20px;
+  color: #58595d;
+  margin-top: 30px;
+}
+
+.main-btn > button {
+  width: 261px;
+  height: 64px;
+  border-radius: 12px;
+  background: #ff6d2c;
+  color: white;
+  border: 3px solid #2e2f35;
+  box-shadow: 5px 3px 2px 0px #2e2f35;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.main-btn > button:hover {
+  background: #2e2f35;
+  color: white;
+  transition: 0.7s ease-in;
+}
+
+.main-block-right {
+  display: flex;
+  align-items: center;
+}
+
+.img-1 {
+  position: relative;
+  margin-right: -720px;
+  z-index: 2;
+  margin-bottom: -50px;
+}
+
+.img-2 {
+  position: relative;
+  margin-left: 130px;
+}
+
+.img-1,
+.img-2 {
+  width: 600px;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*  ----------------------- Main ----------------------- */
+
+.brand {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background: #e0f8f2;
+}
+
+.brand-cont {
+  display: flex;
+  gap: 50px;
+}
+
+.brand-item {
+  width: 284px;
+  grid-auto-columns: 1.5rem;
+  grid-row-gap: 1.5rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.brand-img {
+  height: 200px;
+}
+
+.brand-logo {
+  max-height: 2rem;
+}
+
+marquee {
+  margin-top: 70px;
+  scroll-behavior: smooth;
+}
+
+.brand-text > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 78px;
+  color: #2e2f35;
+}
+
+.brand-text {
+  width: 894px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-text > h1 > span {
+  font-family: "Covered By Your Grace", cursive;
+  color: #009387;
+  font-weight: 400;
+}
+
+/* --------------Brand------------ */
+
+.medium {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.medium-text {
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.medium-text > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 78px;
+  color: #2e2f35;
+}
+
+.medium-text > h1 > span {
+  font-family: "Covered By Your Grace", cursive;
+  color: #009387;
+  font-weight: 400;
+}
+
+.medium-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.m-text,
+.m-center {
+  width: 250px;
+  text-align: center;
+}
+
+.m-text > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 66px;
+  color: #2e2f35;
+}
+
+.m-text,
+.m-center > p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #2e2f35;
+}
+
+
+
+.outer-block {
+  height: 300px;
+  overflow: auto;
+}
+
+.inner-block {
+  height: 500px;
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.scroll {
+  height: 100vh;
+  /* background: #009387; */
+  width: 100%;
+}
+
+.timeline-block {
+  display: none;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.timeline-block.active {
+  display: block;
+}
